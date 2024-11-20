@@ -7,7 +7,7 @@
 the user is done with picking items in his shopping basket.</P>
 <P>View the source of this file to see all the text inputs.</P>
 <BODY bgcolor="#DED6C2">
-<FORM action="HOOK_URL=SAPEVENT:POST" method=post target=_top>
+<FORM action="<%=Request.QueryString("HOOK_URL")%>" method=post target=_top>
   <!--For more information about the interface fields, refer to the catalog
   interface description-->
   <!--Item number 1-->
