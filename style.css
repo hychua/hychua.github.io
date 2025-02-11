@@ -7,7 +7,7 @@
 }
 body{
     min-height: 100vh;
-    width: 100%;
+    width: 150%;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -16,12 +16,12 @@ body{
 }
 .wrapper{
     position: relative;
-    width: 50rem;
-    height: 25rem;
+    width: 38rem;
+    height: 12rem;
     margin-top: 1rem;
 }
 .env{
-    width: 100%;
+    width: 150%;
     height: 100%;
     inset: 0;
     position: absolute;
@@ -84,7 +84,7 @@ img{
 .lettre{
     background: #eff;
     height: 95%;
-    width: 90%;
+    width: 140%;
     margin: .5rem auto;
     font-size: 1.5rem;
     color: #bd0707;
